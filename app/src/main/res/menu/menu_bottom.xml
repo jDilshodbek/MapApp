@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/favoritesFragment"
+        android:icon="@drawable/ic_bookmark"
+        android:iconTint="@color/grey"
+        android:title="" />
+
+    <item
+        android:id="@+id/mapFragment"
+        android:icon="@drawable/ic_pin_drop"
+        android:iconTint="@color/grey"
+        android:title="" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_account"
+        android:iconTint="@color/grey"
+        android:title="" />
+
+</menu>
