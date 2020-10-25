@@ -1,4 +1,4 @@
-package uz.itmaker.mapapp.ui.map
+package uz.test.mapapp.ui.map
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -7,8 +7,8 @@ import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.koin.core.KoinComponent
 import org.koin.core.inject
-import uz.itmaker.mapapp.models.FeatureMember
-import uz.itmaker.mapapp.net.ApiService
+import uz.test.mapapp.models.FeatureMember
+import uz.test.mapapp.net.ApiService
 
 class MapViewModel : ViewModel(), KoinComponent {
 

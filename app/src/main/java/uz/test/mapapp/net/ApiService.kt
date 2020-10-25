@@ -1,9 +1,9 @@
-package uz.itmaker.mapapp.net
+package uz.test.mapapp.net
 
 import io.reactivex.rxjava3.core.Single
 import retrofit2.http.GET
 import retrofit2.http.Query
-import uz.itmaker.mapapp.models.Yandex
+import uz.test.mapapp.models.Yandex
 
 interface ApiService {
 

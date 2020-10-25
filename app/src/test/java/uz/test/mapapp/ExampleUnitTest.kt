@@ -1,4 +1,4 @@
-package uz.itmaker.mapapp
+package uz.test.mapapp
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

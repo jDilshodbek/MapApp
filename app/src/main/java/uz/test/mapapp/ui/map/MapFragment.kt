@@ -1,4 +1,4 @@
-package uz.itmaker.mapapp.ui.map
+package uz.test.mapapp.ui.map
 
 import android.Manifest
 import android.app.Dialog
@@ -45,9 +45,9 @@ import com.yandex.mapkit.user_location.UserLocationView
 import com.yandex.runtime.image.ImageProvider
 import kotlinx.android.synthetic.main.fragment_map.*
 import org.koin.android.viewmodel.ext.android.viewModel
-import uz.itmaker.mapapp.Address
-import uz.itmaker.mapapp.R
-import uz.itmaker.mapapp.ui.favorites.FavoritesViewModel
+import uz.test.mapapp.Address
+import uz.test.mapapp.R
+import uz.test.mapapp.ui.favorites.FavoritesViewModel
 import java.util.*
 
 
@@ -521,7 +521,7 @@ class MapFragment : Fragment(R.layout.fragment_map), Map.CameraCallback, UserLoc
         saveBtn.setOnClickListener {
             // save to db
             val address =
-                uz.itmaker.mapapp.models.Address(0, addressEditText.text.toString(), lat, lng)
+                uz.test.mapapp.models.Address(0, addressEditText.text.toString(), lat, lng)
             favoritesViewModel.insert(address)
             Snackbar.make(requireView(), getString(R.string.added_to_fav), Snackbar.LENGTH_SHORT)
                 .show()

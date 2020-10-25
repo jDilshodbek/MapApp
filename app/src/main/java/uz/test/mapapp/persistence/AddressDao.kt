@@ -1,8 +1,8 @@
-package uz.itmaker.mapapp.persistence
+package uz.test.mapapp.persistence
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import uz.itmaker.mapapp.models.Address
+import uz.test.mapapp.models.Address
 
 
 @Dao

@@ -1,4 +1,4 @@
-package uz.itmaker.mapapp.models
+package uz.test.mapapp.models
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

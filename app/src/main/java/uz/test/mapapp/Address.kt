@@ -1,4 +1,4 @@
-package uz.itmaker.mapapp
+package uz.test.mapapp
 
 data class Address(
     val formatted: String,

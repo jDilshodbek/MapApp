@@ -1,4 +1,4 @@
-package uz.itmaker.mapapp
+package uz.test.mapapp
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry

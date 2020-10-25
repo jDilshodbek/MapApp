@@ -1,4 +1,4 @@
-package uz.itmaker.mapapp.ui.favorites
+package uz.test.mapapp.ui.favorites
 
 import android.os.Bundle
 import android.view.View
@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.fragment_favorites.*
 import org.koin.android.ext.android.inject
-import uz.itmaker.mapapp.R
+import uz.test.mapapp.R
 
 
 /**

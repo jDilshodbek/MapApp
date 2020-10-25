@@ -1,4 +1,4 @@
-package uz.itmaker.mapapp.ui.map
+package uz.test.mapapp.ui.map
 
 import android.graphics.Color
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.xeoh.android.texthighlighter.TextHighlighter
-import uz.itmaker.mapapp.R
-import uz.itmaker.mapapp.models.FeatureMember
+import uz.test.mapapp.R
+import uz.test.mapapp.models.FeatureMember
 
 class AddressAdapter : RecyclerView.Adapter<AddressAdapter.ViewHolder>() {
     private var addressList = arrayListOf<FeatureMember>()

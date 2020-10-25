@@ -1,4 +1,4 @@
-package uz.itmaker.mapapp.ui
+package uz.test.mapapp.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -8,7 +8,7 @@ import com.google.android.material.shape.CornerFamily
 import com.google.android.material.shape.MaterialShapeDrawable
 import com.kelin.translucentbar.library.TranslucentBarManager
 import kotlinx.android.synthetic.main.bottom_nav_layout.*
-import uz.itmaker.mapapp.R
+import uz.test.mapapp.R
 
 
 class MainActivity : AppCompatActivity() {

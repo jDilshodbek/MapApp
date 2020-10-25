@@ -1,4 +1,4 @@
-package uz.itmaker.mapapp.di
+package uz.test.mapapp.di
 
 import androidx.room.Room
 import okhttp3.OkHttpClient
@@ -10,12 +10,12 @@ import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava3.RxJava3CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
-import uz.itmaker.mapapp.BuildConfig
+import uz.test.mapapp.BuildConfig
 
-import uz.itmaker.mapapp.net.ApiService
-import uz.itmaker.mapapp.persistence.AddressDatabase
-import uz.itmaker.mapapp.ui.favorites.FavoritesViewModel
-import uz.itmaker.mapapp.ui.map.MapViewModel
+import uz.test.mapapp.net.ApiService
+import uz.test.mapapp.persistence.AddressDatabase
+import uz.test.mapapp.ui.favorites.FavoritesViewModel
+import uz.test.mapapp.ui.map.MapViewModel
 
 val appModule = module {
 

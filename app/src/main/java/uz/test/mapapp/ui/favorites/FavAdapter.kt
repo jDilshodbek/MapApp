@@ -1,4 +1,4 @@
-package uz.itmaker.mapapp.ui.favorites
+package uz.test.mapapp.ui.favorites
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,8 +7,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import uz.itmaker.mapapp.R
-import uz.itmaker.mapapp.models.Address
+import uz.test.mapapp.R
+import uz.test.mapapp.models.Address
 
 class FavAdapter : RecyclerView.Adapter<FavAdapter.ViewHolder>() {
     private var favItems = listOf<Address>()

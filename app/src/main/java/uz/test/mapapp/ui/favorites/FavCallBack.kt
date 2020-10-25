@@ -1,7 +1,7 @@
-package uz.itmaker.mapapp.ui.favorites
+package uz.test.mapapp.ui.favorites
 
 import androidx.recyclerview.widget.DiffUtil
-import uz.itmaker.mapapp.models.Address
+import uz.test.mapapp.models.Address
 
 class FavCallBack(
     private val oldAddressList: List<Address>,
